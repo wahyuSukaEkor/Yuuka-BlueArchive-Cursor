@@ -1,5 +1,3 @@
-# Yuuka-BlueArchive-Cursor
-
 How to use
 
 right-click install.inf

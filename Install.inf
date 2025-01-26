@@ -1,0 +1,52 @@
+; Yuuka Blue Archive Cursor Scheme
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+default.ani
+hand.ani
+help.cur
+NESW.cur
+not.ani
+NS.cur
+NWSE.cur
+text.ani
+wait.ani
+WE.cur
+areaselect.cur
+pen.cur
+alternativeselect.cur
+move.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Yuuka"
+SCHEME_NAME   = "Yuuka Blue Archive"
+pointer       = "default.ani"
+help          = "help.cur"
+work          = "wait.ani"
+busy          = "wait.ani"
+text          = "text.ani"
+unavailable   = "not.ani"
+vert          = "NS.cur"
+horz          = "WE.cur"
+dgn1          = "NESW.cur"
+dgn2          = "NWSE.cur"
+link          = "hand.ani"
+move          = "move.cur"
+cross         = "areaselect.cur"
+hand          = "pen.cur"
+alternate     = "alternativeselect.cur"
