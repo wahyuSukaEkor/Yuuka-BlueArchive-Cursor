@@ -2,9 +2,9 @@
 
 How to use
 
-right-click install.inf
-open customize pointer
-apllied theme
+right-click>>install.inf>>install>>
+open customize pointer>>
+apllied theme>>
 enjoy
 
 credit : https://www.pixiv.net/en/artworks/101445169
